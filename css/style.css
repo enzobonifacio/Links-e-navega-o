@@ -19,9 +19,9 @@ header {
     align-items: center;
 }
 
-header div {
+header div {        
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 main {
@@ -77,8 +77,6 @@ main {
     border-radius: 20px;
     height: 300px;
     object-fit: cover;
-    display: block;
-    margin: 0 auto;
 }
 
 .card h3 {
@@ -114,7 +112,6 @@ a {
     background-color: #319ac4;
     padding: 15px;
     font-weight: bold;
-    text-decoration: none;
     border-radius: 5px;
    
 }
