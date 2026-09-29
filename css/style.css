@@ -6,12 +6,15 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial', sans-serif;
-    background-color: gainsboro;
+    background-image: url("../assets/img/Background.png");
+    background-size: cover;
+    background-position: center;
+
 }
 
 header {
     background-color: rgb(83, 167, 235);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px;
     margin-bottom: 30px;
     display: flex;
@@ -19,7 +22,7 @@ header {
     align-items: center;
 }
 
-header div {        
+header div {
     display: flex;
     gap: 15px;
 }
@@ -50,7 +53,6 @@ main {
     width: 350px;
     height: 350px;
     border-radius: 20px;
-    object-fit: cover;
 }
 
 #sobre, #lancamentos, #destaques {
@@ -65,7 +67,7 @@ main {
 }
 
 .card {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     width: 30%;
     border-radius: 20px;
@@ -76,7 +78,7 @@ main {
     width: 100%;
     border-radius: 20px;
     height: 300px;
-    object-fit: cover;
+
 }
 
 .card h3 {
@@ -89,7 +91,7 @@ main {
 }
 
 #curiosidades-principal {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 20px;
     margin-top: 20px;
@@ -102,24 +104,19 @@ main {
 #curiosidades-principal img {
     width: 200px;
     height: 200px;
-    object-fit: cover;
     border-radius: 10px;
     margin-top: 15px;
 }
 
 a {
-    color: white;
-    background-color: #319ac4;
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 129, 203);
     padding: 15px;
     font-weight: bold;
     border-radius: 5px;
-   
+
 }
 
-a:hover {
-    color: white;
-    background-color: #005baf;
-}
 
 h2 {
     font-size: 40px;
@@ -131,5 +128,5 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(115, 201, 255);
 }
